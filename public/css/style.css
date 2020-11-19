@@ -113,6 +113,7 @@ header{
     line-height: 25px;
     color: #302D3D;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 720px;
 }
 
 .about_text ul{
@@ -205,7 +206,7 @@ header{
 }
 
 .item p{
-    max-width: 280px;
+    max-width: 350px;
     margin: 10px auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -215,6 +216,7 @@ header{
 
 .btn{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .btn a{
@@ -231,6 +233,99 @@ header{
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/* Footer */
+#footer{
+    background-color: #302D3D;
+    width: 100%;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer_historia h3{
+    font-family: "Kepler Std";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer_historia h3::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #ED9448;
+    margin-top: 10px;
+}
+
+.footer_historia p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+
+.footer_contato h3{
+    font-family: "Kepler Std";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer_contato h3::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #ED9448;
+    margin-top: 10px;
+}
+
+.footer_contato ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer_redessociais h3{
+    font-family: "Kepler Std";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer_redessociais h3::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #ED9448;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer_redessociais ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redessociais ul li a{
+    border: 3px solid #ED9448;
+    display: block;
+    padding: 6px;
+}
+
+.footer_redessociais ul li a:hover{
+    border-color: #FFF;
+}
+
+.copy{
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 
